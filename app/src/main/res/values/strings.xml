@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"> Your notes </string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">your notes…</string>
+    <string name="button_save">Enregistrer</string>
+    <string name="empty_not_saved">Notes pas enregistree , vide!</string>
+    <string name="add_word">Ajouter notes</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
