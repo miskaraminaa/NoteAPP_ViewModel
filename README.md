@@ -34,7 +34,7 @@ L'architecture de NoteApp est basée sur le modèle **MVVM**, qui sépare les pr
 Room est utilisé comme couche d'abstraction au-dessus de SQLite pour simplifier les interactions avec la base de données.
 
 - Une entité **Note** est définie pour représenter une note dans la base de données.
-- La classe **NoteDao** contient les méthodes d'accès aux données pour effectuer des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer).
+- La classe **NoteDao** contient les méthodes d'accès aux données pour effectuer des opérations CRUD (Créer, Lire, Supprimer).
 - La base de données **NoteRoomDatabase** est configurée pour gérer l'instance unique de la base de données.
 
 ### ViewModel
@@ -47,5 +47,9 @@ Le **NotesViewModel** est utilisé pour gérer les données liées à l'interfac
 Le **SavedStateHandle** est utilisé dans le ViewModel pour sauvegarder et restaurer l'état des notes lors des changements de configuration, comme la rotation de l'écran.
 
 ### RecyclerView
-**RecyclerView** est utilisé pour afficher la liste des notes. Chaque note est affichée dans un élément de la liste, et les utilisateurs peuvent interagir avec les notes pour les modifier ou les supprimer.
+**RecyclerView** est utilisé pour afficher la liste des notes. Chaque note est affichée dans un élément de la liste, et les utilisateurs peuvent interagir avec les notes pour les supprimer.
+
+
+https://github.com/user-attachments/assets/8b902c94-2a47-47c7-b607-8f809c5edb96
+
 
