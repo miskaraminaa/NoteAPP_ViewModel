@@ -47,7 +47,7 @@ Le **NotesViewModel** est utilisé pour gérer les données liées à l'interfac
 Le **SavedStateHandle** est utilisé dans le ViewModel pour sauvegarder et restaurer l'état des notes lors des changements de configuration, comme la rotation de l'écran.
 
 ### RecyclerView
-**RecyclerView** est utilisé pour afficher la liste des notes. Chaque note est affichée dans un élément de la liste, et les utilisateurs peuvent interagir avec les notes pour les supprimer.
+**RecyclerView** est utilisé pour afficher la liste des notes. Chaque note est affichée dans un élément de la liste, et les utilisateurs peuvent supprimer les supprimer par un simple balayage.
 
 
 https://github.com/user-attachments/assets/8b902c94-2a47-47c7-b607-8f809c5edb96
